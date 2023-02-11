@@ -1,0 +1,228 @@
+// LINHA DE COMPILAÇÃO: gcc main.c -std=c11 -Wall -Wextra  -pedantic -v  -o main atomAdt.c -std=c11 -Wall -Wextra -pedantic -v -o atomAdt nodeAdt.c -std=c11 -Wall -Wextra  -pedantic -v  -o nodeAdt stackAdt.c -std=c11 -Wall -Wextra -pedantic -v -o stackAdt treeAdt.c -std=c11 -Wall -Wextra -pedantic -v -o treeAdt auxiliary.c -std=c11 -Wall -Wextra -pedantic -v -o lab
+
+//  OUTPUT GERADA ABAIXO: 
+
+
+
+Microsoft Windows [versão 10.0.19041.572]
+(c) 2020 Microsoft Corporation. Todos os direitos reservados.
+
+C:\Users\david>cd desktop
+
+C:\Users\david\Desktop>cd 2.1
+
+C:\Users\david\Desktop\2.1>gcc main.c -std=c11 -Wall -Wextra  -pedantic -v  -o main atomAdt.c -std=c11 -Wall -Wextra -pedantic -v -o atomAdt nodeAdt.c -std=c11 -Wall -Wextra  -pedantic -v  -o nodeAdt stackAdt.c -std=c11 -Wall -Wextra -pedantic -v -o stackAdt treeAdt.c -std=c11 -Wall -Wextra -pedantic -v -o treeAdt auxiliary.c -std=c11 -Wall -Wextra -pedantic -v -o lab
+Using built-in specs.
+COLLECT_GCC=gcc
+COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/9.2.0/lto-wrapper.exe
+Target: mingw32
+Configured with: ../src/gcc-9.2.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --target=mingw32 --disable-win32-registry --with-arch=i586 --with-tune=generic --enable-static --enable-shared --enable-threads --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --enable-libgomp --disable-libvtv --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --disable-build-format-warnings --prefix=/mingw --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --enable-nls --with-pkgversion='MinGW.org GCC Build-20200227-1'
+Thread model: win32
+gcc version 9.2.0 (MinGW.org GCC Build-20200227-1)
+COLLECT_GCC_OPTIONS='-std=c11' '-v' '-o' 'main.exe' '-std=c11' '-v' '-o' 'atomAdt.exe' '-std=c11' '-v' '-o' 'nodeAdt.exe' '-std=c11' '-v' '-o' 'stackAdt.exe' '-std=c11' '-v' '-o' 'treeAdt.exe' '-std=c11' '-Wall' '-Wextra' '-Wpedantic' '-v' '-o' 'lab.exe' '-mtune=generic' '-march=i586'
+ c:/mingw/bin/../libexec/gcc/mingw32/9.2.0/cc1.exe -quiet -v -v -v -v -v -v -iprefix c:\mingw\bin\../lib/gcc/mingw32/9.2.0/ main.c -quiet -dumpbase main.c -mtune=generic -march=i586 -auxbase main -Wall -Wextra -Wpedantic -std=c11 -std=c11 -std=c11 -std=c11 -std=c11 -std=c11 -version -o C:\Users\david\AppData\Local\Temp\ccozl7Dy.s
+GNU C11 (MinGW.org GCC Build-20200227-1) version 9.2.0 (mingw32)
+        compiled by GNU C version 9.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../mingw32/include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/9.2.0/include"
+ignoring duplicate directory "/mingw/lib/gcc/mingw32/9.2.0/../../../../include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/9.2.0/include-fixed"
+ignoring nonexistent directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/9.2.0/../../../../mingw32/include"
+ignoring duplicate directory "/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include
+ c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include
+ c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed
+End of search list.
+GNU C11 (MinGW.org GCC Build-20200227-1) version 9.2.0 (mingw32)
+        compiled by GNU C version 9.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 4466b5eb55ee496e209b8a8fdff6557f
+COLLECT_GCC_OPTIONS='-std=c11' '-v' '-o' 'main.exe' '-std=c11' '-v' '-o' 'atomAdt.exe' '-std=c11' '-v' '-o' 'nodeAdt.exe' '-std=c11' '-v' '-o' 'stackAdt.exe' '-std=c11' '-v' '-o' 'treeAdt.exe' '-std=c11' '-Wall' '-Wextra' '-Wpedantic' '-v' '-o' 'lab.exe' '-mtune=generic' '-march=i586'
+ c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/as.exe -v -v -v -v -v -v -o C:\Users\david\AppData\Local\Temp\ccauS9Y6.o C:\Users\david\AppData\Local\Temp\ccozl7Dy.s
+GNU assembler version 2.32 (mingw32) using BFD version (GNU Binutils) 2.32
+COLLECT_GCC_OPTIONS='-std=c11' '-v' '-o' 'main.exe' '-std=c11' '-v' '-o' 'atomAdt.exe' '-std=c11' '-v' '-o' 'nodeAdt.exe' '-std=c11' '-v' '-o' 'stackAdt.exe' '-std=c11' '-v' '-o' 'treeAdt.exe' '-std=c11' '-Wall' '-Wextra' '-Wpedantic' '-v' '-o' 'lab.exe' '-mtune=generic' '-march=i586'
+ c:/mingw/bin/../libexec/gcc/mingw32/9.2.0/cc1.exe -quiet -v -v -v -v -v -v -iprefix c:\mingw\bin\../lib/gcc/mingw32/9.2.0/ atomAdt.c -quiet -dumpbase atomAdt.c -mtune=generic -march=i586 -auxbase atomAdt -Wall -Wextra -Wpedantic -std=c11 -std=c11 -std=c11 -std=c11 -std=c11 -std=c11 -version -o C:\Users\david\AppData\Local\Temp\ccozl7Dy.s
+GNU C11 (MinGW.org GCC Build-20200227-1) version 9.2.0 (mingw32)
+        compiled by GNU C version 9.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../mingw32/include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/9.2.0/include"
+ignoring duplicate directory "/mingw/lib/gcc/mingw32/9.2.0/../../../../include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/9.2.0/include-fixed"
+ignoring nonexistent directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/9.2.0/../../../../mingw32/include"
+ignoring duplicate directory "/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include
+ c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include
+ c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed
+End of search list.
+GNU C11 (MinGW.org GCC Build-20200227-1) version 9.2.0 (mingw32)
+        compiled by GNU C version 9.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 4466b5eb55ee496e209b8a8fdff6557f
+COLLECT_GCC_OPTIONS='-std=c11' '-v' '-o' 'main.exe' '-std=c11' '-v' '-o' 'atomAdt.exe' '-std=c11' '-v' '-o' 'nodeAdt.exe' '-std=c11' '-v' '-o' 'stackAdt.exe' '-std=c11' '-v' '-o' 'treeAdt.exe' '-std=c11' '-Wall' '-Wextra' '-Wpedantic' '-v' '-o' 'lab.exe' '-mtune=generic' '-march=i586'
+ c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/as.exe -v -v -v -v -v -v -o C:\Users\david\AppData\Local\Temp\ccO6p8TN.o C:\Users\david\AppData\Local\Temp\ccozl7Dy.s
+GNU assembler version 2.32 (mingw32) using BFD version (GNU Binutils) 2.32
+COLLECT_GCC_OPTIONS='-std=c11' '-v' '-o' 'main.exe' '-std=c11' '-v' '-o' 'atomAdt.exe' '-std=c11' '-v' '-o' 'nodeAdt.exe' '-std=c11' '-v' '-o' 'stackAdt.exe' '-std=c11' '-v' '-o' 'treeAdt.exe' '-std=c11' '-Wall' '-Wextra' '-Wpedantic' '-v' '-o' 'lab.exe' '-mtune=generic' '-march=i586'
+ c:/mingw/bin/../libexec/gcc/mingw32/9.2.0/cc1.exe -quiet -v -v -v -v -v -v -iprefix c:\mingw\bin\../lib/gcc/mingw32/9.2.0/ nodeAdt.c -quiet -dumpbase nodeAdt.c -mtune=generic -march=i586 -auxbase nodeAdt -Wall -Wextra -Wpedantic -std=c11 -std=c11 -std=c11 -std=c11 -std=c11 -std=c11 -version -o C:\Users\david\AppData\Local\Temp\ccozl7Dy.s
+GNU C11 (MinGW.org GCC Build-20200227-1) version 9.2.0 (mingw32)
+        compiled by GNU C version 9.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../mingw32/include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/9.2.0/include"
+ignoring duplicate directory "/mingw/lib/gcc/mingw32/9.2.0/../../../../include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/9.2.0/include-fixed"
+ignoring nonexistent directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/9.2.0/../../../../mingw32/include"
+ignoring duplicate directory "/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include
+ c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include
+ c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed
+End of search list.
+GNU C11 (MinGW.org GCC Build-20200227-1) version 9.2.0 (mingw32)
+        compiled by GNU C version 9.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 4466b5eb55ee496e209b8a8fdff6557f
+COLLECT_GCC_OPTIONS='-std=c11' '-v' '-o' 'main.exe' '-std=c11' '-v' '-o' 'atomAdt.exe' '-std=c11' '-v' '-o' 'nodeAdt.exe' '-std=c11' '-v' '-o' 'stackAdt.exe' '-std=c11' '-v' '-o' 'treeAdt.exe' '-std=c11' '-Wall' '-Wextra' '-Wpedantic' '-v' '-o' 'lab.exe' '-mtune=generic' '-march=i586'
+ c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/as.exe -v -v -v -v -v -v -o C:\Users\david\AppData\Local\Temp\ccW4grLH.o C:\Users\david\AppData\Local\Temp\ccozl7Dy.s
+GNU assembler version 2.32 (mingw32) using BFD version (GNU Binutils) 2.32
+COLLECT_GCC_OPTIONS='-std=c11' '-v' '-o' 'main.exe' '-std=c11' '-v' '-o' 'atomAdt.exe' '-std=c11' '-v' '-o' 'nodeAdt.exe' '-std=c11' '-v' '-o' 'stackAdt.exe' '-std=c11' '-v' '-o' 'treeAdt.exe' '-std=c11' '-Wall' '-Wextra' '-Wpedantic' '-v' '-o' 'lab.exe' '-mtune=generic' '-march=i586'
+ c:/mingw/bin/../libexec/gcc/mingw32/9.2.0/cc1.exe -quiet -v -v -v -v -v -v -iprefix c:\mingw\bin\../lib/gcc/mingw32/9.2.0/ stackAdt.c -quiet -dumpbase stackAdt.c -mtune=generic -march=i586 -auxbase stackAdt -Wall -Wextra -Wpedantic -std=c11 -std=c11 -std=c11 -std=c11 -std=c11 -std=c11 -version -o C:\Users\david\AppData\Local\Temp\ccozl7Dy.s
+GNU C11 (MinGW.org GCC Build-20200227-1) version 9.2.0 (mingw32)
+        compiled by GNU C version 9.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../mingw32/include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/9.2.0/include"
+ignoring duplicate directory "/mingw/lib/gcc/mingw32/9.2.0/../../../../include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/9.2.0/include-fixed"
+ignoring nonexistent directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/9.2.0/../../../../mingw32/include"
+ignoring duplicate directory "/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include
+ c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include
+ c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed
+End of search list.
+GNU C11 (MinGW.org GCC Build-20200227-1) version 9.2.0 (mingw32)
+        compiled by GNU C version 9.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 4466b5eb55ee496e209b8a8fdff6557f
+COLLECT_GCC_OPTIONS='-std=c11' '-v' '-o' 'main.exe' '-std=c11' '-v' '-o' 'atomAdt.exe' '-std=c11' '-v' '-o' 'nodeAdt.exe' '-std=c11' '-v' '-o' 'stackAdt.exe' '-std=c11' '-v' '-o' 'treeAdt.exe' '-std=c11' '-Wall' '-Wextra' '-Wpedantic' '-v' '-o' 'lab.exe' '-mtune=generic' '-march=i586'
+ c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/as.exe -v -v -v -v -v -v -o C:\Users\david\AppData\Local\Temp\ccSE25MJ.o C:\Users\david\AppData\Local\Temp\ccozl7Dy.s
+GNU assembler version 2.32 (mingw32) using BFD version (GNU Binutils) 2.32
+COLLECT_GCC_OPTIONS='-std=c11' '-v' '-o' 'main.exe' '-std=c11' '-v' '-o' 'atomAdt.exe' '-std=c11' '-v' '-o' 'nodeAdt.exe' '-std=c11' '-v' '-o' 'stackAdt.exe' '-std=c11' '-v' '-o' 'treeAdt.exe' '-std=c11' '-Wall' '-Wextra' '-Wpedantic' '-v' '-o' 'lab.exe' '-mtune=generic' '-march=i586'
+ c:/mingw/bin/../libexec/gcc/mingw32/9.2.0/cc1.exe -quiet -v -v -v -v -v -v -iprefix c:\mingw\bin\../lib/gcc/mingw32/9.2.0/ treeAdt.c -quiet -dumpbase treeAdt.c -mtune=generic -march=i586 -auxbase treeAdt -Wall -Wextra -Wpedantic -std=c11 -std=c11 -std=c11 -std=c11 -std=c11 -std=c11 -version -o C:\Users\david\AppData\Local\Temp\ccozl7Dy.s
+GNU C11 (MinGW.org GCC Build-20200227-1) version 9.2.0 (mingw32)
+        compiled by GNU C version 9.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../mingw32/include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/9.2.0/include"
+ignoring duplicate directory "/mingw/lib/gcc/mingw32/9.2.0/../../../../include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/9.2.0/include-fixed"
+ignoring nonexistent directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/9.2.0/../../../../mingw32/include"
+ignoring duplicate directory "/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include
+ c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include
+ c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed
+End of search list.
+GNU C11 (MinGW.org GCC Build-20200227-1) version 9.2.0 (mingw32)
+        compiled by GNU C version 9.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 4466b5eb55ee496e209b8a8fdff6557f
+COLLECT_GCC_OPTIONS='-std=c11' '-v' '-o' 'main.exe' '-std=c11' '-v' '-o' 'atomAdt.exe' '-std=c11' '-v' '-o' 'nodeAdt.exe' '-std=c11' '-v' '-o' 'stackAdt.exe' '-std=c11' '-v' '-o' 'treeAdt.exe' '-std=c11' '-Wall' '-Wextra' '-Wpedantic' '-v' '-o' 'lab.exe' '-mtune=generic' '-march=i586'
+ c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/as.exe -v -v -v -v -v -v -o C:\Users\david\AppData\Local\Temp\ccvCBRbQ.o C:\Users\david\AppData\Local\Temp\ccozl7Dy.s
+GNU assembler version 2.32 (mingw32) using BFD version (GNU Binutils) 2.32
+COLLECT_GCC_OPTIONS='-std=c11' '-v' '-o' 'main.exe' '-std=c11' '-v' '-o' 'atomAdt.exe' '-std=c11' '-v' '-o' 'nodeAdt.exe' '-std=c11' '-v' '-o' 'stackAdt.exe' '-std=c11' '-v' '-o' 'treeAdt.exe' '-std=c11' '-Wall' '-Wextra' '-Wpedantic' '-v' '-o' 'lab.exe' '-mtune=generic' '-march=i586'
+ c:/mingw/bin/../libexec/gcc/mingw32/9.2.0/cc1.exe -quiet -v -v -v -v -v -v -iprefix c:\mingw\bin\../lib/gcc/mingw32/9.2.0/ auxiliary.c -quiet -dumpbase auxiliary.c -mtune=generic -march=i586 -auxbase auxiliary -Wall -Wextra -Wpedantic -std=c11 -std=c11 -std=c11 -std=c11 -std=c11 -std=c11 -version -o C:\Users\david\AppData\Local\Temp\ccozl7Dy.s
+GNU C11 (MinGW.org GCC Build-20200227-1) version 9.2.0 (mingw32)
+        compiled by GNU C version 9.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../mingw32/include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/9.2.0/include"
+ignoring duplicate directory "/mingw/lib/gcc/mingw32/9.2.0/../../../../include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/9.2.0/include-fixed"
+ignoring nonexistent directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/9.2.0/../../../../mingw32/include"
+ignoring duplicate directory "/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include
+ c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include
+ c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed
+End of search list.
+GNU C11 (MinGW.org GCC Build-20200227-1) version 9.2.0 (mingw32)
+        compiled by GNU C version 9.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 4466b5eb55ee496e209b8a8fdff6557f
+COLLECT_GCC_OPTIONS='-std=c11' '-v' '-o' 'main.exe' '-std=c11' '-v' '-o' 'atomAdt.exe' '-std=c11' '-v' '-o' 'nodeAdt.exe' '-std=c11' '-v' '-o' 'stackAdt.exe' '-std=c11' '-v' '-o' 'treeAdt.exe' '-std=c11' '-Wall' '-Wextra' '-Wpedantic' '-v' '-o' 'lab.exe' '-mtune=generic' '-march=i586'
+ c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/as.exe -v -v -v -v -v -v -o C:\Users\david\AppData\Local\Temp\cc8ZTZ77.o C:\Users\david\AppData\Local\Temp\ccozl7Dy.s
+GNU assembler version 2.32 (mingw32) using BFD version (GNU Binutils) 2.32
+COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/9.2.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/
+LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/9.2.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../
+COLLECT_GCC_OPTIONS='-std=c11' '-v' '-o' 'main.exe' '-std=c11' '-v' '-o' 'atomAdt.exe' '-std=c11' '-v' '-o' 'nodeAdt.exe' '-std=c11' '-v' '-o' 'stackAdt.exe' '-std=c11' '-v' '-o' 'treeAdt.exe' '-std=c11' '-Wall' '-Wextra' '-Wpedantic' '-v' '-o' 'lab.exe' '-mtune=generic' '-march=i586'
+ c:/mingw/bin/../libexec/gcc/mingw32/9.2.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/9.2.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/9.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\david\AppData\Local\Temp\ccdaQJjr.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o main.exe -o atomAdt.exe -o nodeAdt.exe -o stackAdt.exe -o treeAdt.exe -o lab.exe c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/9.2.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/9.2.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../.. C:\Users\david\AppData\Local\Temp\ccauS9Y6.o C:\Users\david\AppData\Local\Temp\ccO6p8TN.o C:\Users\david\AppData\Local\Temp\ccW4grLH.o C:\Users\david\AppData\Local\Temp\ccSE25MJ.o C:\Users\david\AppData\Local\Temp\ccvCBRbQ.o C:\Users\david\AppData\Local\Temp\cc8ZTZ77.o -lmingw32 -lmingwex -lgcc -lgcc_eh -lmoldname -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lmingwex -lgcc -lgcc_eh -lmoldname -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/9.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-std=c11' '-v' '-o' 'main.exe' '-std=c11' '-v' '-o' 'atomAdt.exe' '-std=c11' '-v' '-o' 'nodeAdt.exe' '-std=c11' '-v' '-o' 'stackAdt.exe' '-std=c11' '-v' '-o' 'treeAdt.exe' '-std=c11' '-Wall' '-Wextra' '-Wpedantic' '-v' '-o' 'lab.exe' '-mtune=generic' '-march=i586'
+
+C:\Users\david\Desktop\2.1>lab.exe
+Expression file:
+input.txt
+
+Expression: (((23 + 90) * (8 + (53 * 12))) + 42)
+
+type     |  attribute
+-----------------------
+OPAR     |
+OPAR     |
+OPAR     |
+NUMBER   |  23
+OP       |  +
+NUMBER   |  90
+CPAR     |
+OP       |  *
+OPAR     |
+NUMBER   |  8
+OP       |  +
+OPAR     |
+NUMBER   |  53
+OP       |  *
+NUMBER   |  12
+CPAR     |
+CPAR     |
+CPAR     |
+OP       |  +
+NUMBER   |  42
+CPAR     |
+-----------------------
+
+Polish:  23  90  +  8  53  12  *  +  *  42  +
+
+Parenthetical: (((23 + 90) * (8 + (53 * 12))) + 42)
+
+Result = 72814
+Pressione qualquer tecla para continuar. . .
+
+C:\Users\david\Desktop\2.1>cls

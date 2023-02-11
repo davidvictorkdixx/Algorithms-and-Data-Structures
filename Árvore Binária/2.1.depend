@@ -1,0 +1,66 @@
+# depslib dependency file v1.0
+1604100446 source:d:\drive david\divis√o de ensino ita 2020\estudo dirigido\2∫ semestre\ces-11\labs-2020\2.1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"atomAdt.h"
+	"nodeAdt.h"
+	"stackAdt.h"
+	"treeAdt.h"
+	"auxiliary.h"
+
+1604097475 d:\drive david\divis√o de ensino ita 2020\estudo dirigido\2∫ semestre\ces-11\labs-2020\2.1\atomadt.h
+
+1604099877 source:d:\drive david\divis√o de ensino ita 2020\estudo dirigido\2∫ semestre\ces-11\labs-2020\2.1\atomadt.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"atomAdt.h"
+
+1603672693 source:d:\drive david\divis√o de ensino ita 2020\estudo dirigido\2∫ semestre\ces-11\labs-2020\2.1\stackadt.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"stackAdt.h"
+
+1603594649 d:\drive david\divis√o de ensino ita 2020\estudo dirigido\2∫ semestre\ces-11\labs-2020\2.1\stackadt.h
+	<stdbool.h>
+	"atomAdt.h"
+	"nodeAdt.h"
+
+1604024053 d:\drive david\divis√o de ensino ita 2020\estudo dirigido\2∫ semestre\ces-11\labs-2020\2.1\nodeadt.h
+	"atomAdt.h"
+
+1604029062 source:d:\drive david\divis√o de ensino ita 2020\estudo dirigido\2∫ semestre\ces-11\labs-2020\2.1\nodeadt.c
+	<stdio.h>
+	<stdlib.h>
+	"nodeAdt.h"
+
+1604035554 source:d:\drive david\divis√o de ensino ita 2020\estudo dirigido\2∫ semestre\ces-11\labs-2020\2.1\auxiliary.c
+	<stdio.h>
+	<stdlib.h>
+	"atomAdt.h"
+	"nodeAdt.h"
+	"stackAdt.h"
+	"auxiliary.h"
+	"treeAdt.h"
+
+1604035321 d:\drive david\divis√o de ensino ita 2020\estudo dirigido\2∫ semestre\ces-11\labs-2020\2.1\auxiliary.h
+	"atomAdt.h"
+	"nodeAdt.h"
+	"stackAdt.h"
+	"treeAdt.h"
+
+1604025751 d:\drive david\divis√o de ensino ita 2020\estudo dirigido\2∫ semestre\ces-11\labs-2020\2.1\treeadt.h
+	"atomAdt.h"
+	"nodeAdt.h"
+	"stackAdt.h"
+
+1604031582 source:d:\drive david\divis√o de ensino ita 2020\estudo dirigido\2∫ semestre\ces-11\labs-2020\2.1\treeadt.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"atomAdt.h"
+	"nodeAdt.h"
+	"stackAdt.h"
+	"treeAdt.h"
+
